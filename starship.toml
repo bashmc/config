@@ -24,18 +24,18 @@ success_symbol = "[→](bold green)"
 error_symbol = "[→](bold red)"
 
 [git_branch]
-format = 'via [$branch](bold #7695FF)'
+format = 'via [$branch](bold blue)'
 truncation_length = 50
 truncation_symbol = "…/"
 style = "bold green"
 
 [git_status]
-format = ' ([\[ $all_status$ahead_behind\] ](bold #7695F))'
+format = ' ([\( $all_status$ahead_behind\) ](bold blue))'
 ahead = '[▲](bold purple) '
 behind = '[▼](bold red) '
 staged = '[✚](blue) '
 deleted = '[x](bold red) '
-renamed = '[$](bold purple) '
+renamed = '[#](bold purple) '
 stashed = '[𝌤](bold cyan) '
 untracked = '[⦿](bold red) '
 modified = '[✱](yellow) '
